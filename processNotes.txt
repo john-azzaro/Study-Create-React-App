@@ -19,3 +19,5 @@ Resources
 ===========
 https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/  -- npm vs npx
 https://www.educative.io/edpresso/what-is-npx -- npx intro
+https://elijahmanor.com/npx-course/  -- npx
+https://blog.teamtreehouse.com/getting-started-create-react-app-tool#:~:text=Create%20React%20App%20is%20a,to%20start%20your%20React%20project. -- create-react-app
