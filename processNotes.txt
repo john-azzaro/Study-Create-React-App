@@ -17,3 +17,5 @@ one as well so I would urge you to consider at least doing a rough summary for y
 
 Resources
 ===========
+https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/  -- npm vs npx
+https://www.educative.io/edpresso/what-is-npx -- npx intro
