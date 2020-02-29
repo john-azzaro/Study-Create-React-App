@@ -41,23 +41,23 @@ Here are a few questions from the study to explore:
 
 In the example below, we run a temporary package ```cowsay``` a string to execute.
 ```
-  npx cowsay 'This is an example of binary execution wihtout installation!'
+  $ npx cowsay 'This is an example of binary execution wihtout installation!'
 ```
 ```
-$ npx cowsay 'This is an example of binary execution wihtout installation!'
-npx: installed 1 in 1.32s
-Path must be a string. Received undefined
-npx: installed 10 in 1.932s
-C:\Users\Admin\AppData\Roaming\npm-cache\_npx\4460\node_modules\cowsay\cli.js
- __________________________________________
-/ This is an example of binary execution w \
-\ ihtout installation!                     /
- ------------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+  $ npx cowsay 'This is an example of binary execution wihtout installation!'
+  npx: installed 1 in 1.32s
+  Path must be a string. Received undefined
+  npx: installed 10 in 1.932s
+  C:\Users\Admin\AppData\Roaming\npm-cache\_npx\4460\node_modules\cowsay\cli.js
+  __________________________________________
+  / This is an example of binary execution w \
+  \ ihtout installation!                     /
+  ------------------------------------------
+          \   ^__^
+          \  (oo)\_______
+              (__)\       )\/\
+                  ||----w |
+                  ||     ||
 ```
 
 </dd>
@@ -67,12 +67,14 @@ C:\Users\Admin\AppData\Roaming\npm-cache\_npx\4460\node_modules\cowsay\cli.js
 <br>
 <br>
 
-# How do you a create development environment with create-react-app?
+# How do you a create a React app with create-react-app?
 
 <dl>
 <dd>
 
-## Create React App
+## Create React App is a quick build setup for React applications.
+**With ```create-react-app```, you can save time on setup and configuration to get going quicker with one simple command.**
+The environment created from running ```create-react-app```, including: React, JSC, ES6, and Flow syntax, langauge extras like the spread operators, autoprefixed CSS, an interactive unit test runner, a live development server, offline-first server worker and web app manifest meeting Progressive web app criteria, and updates for all tools handled through a single dependency.
 
 
 
