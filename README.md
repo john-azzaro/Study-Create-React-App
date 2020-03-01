@@ -1,5 +1,5 @@
 # Create React App Study
-See it Live: 
+See it Live: https://john-azzaro.github.io/Study-Create-React-App/
 
 <br>
 
@@ -99,9 +99,42 @@ Once you run the code above, it will take at least a few minutes to set everythi
 
 Running the test command will start the test runner that lets you test your app with Jest as you build it out. This is an interactive test environment that can be used to great effect. To use the test command, run the following at the command line:
 ```
-  npm test
+  $ npm test
 ```
 
+</dd>
+</dl>
+
+<br>
+<br>
+<br>
+
+# What does the build command do?
+
+<dl>
+<dd>
+
+The build command bundles the React application into static files for production and optimizes it for best performance. In other words, it prepares you application for production deployment. To use the build command, run the following at the command line:
+```
+  $ npm run build
+```
+
+</dd>
+</dl>
+
+<br>
+<br>
+<br>
+
+# 
+
+<dl>
+<dd>
+
+
+```
+  
+```
 
 </dd>
 </dl>
