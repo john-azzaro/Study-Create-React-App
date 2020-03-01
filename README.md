@@ -76,6 +76,11 @@ In the example below, we run a temporary package ```cowsay``` a string to execut
 **With ```create-react-app```, you can save time on setup and configuration to get going quicker with one simple command.**
 The environment created from running ```create-react-app```, including: React, JSC, ES6, and Flow syntax, langauge extras like the spread operators, autoprefixed CSS, an interactive unit test runner, a live development server, offline-first server worker and web app manifest meeting Progressive web app criteria, and updates for all tools handled through a single dependency.
 
+To create a React app using ```create-react-app```, use the following at the command line:
+```
+  $ npx create-react-app <name-of-app>
+```
+Once you run the code above, it will take at least a few minutes to set everything up.
 
 
 
