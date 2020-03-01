@@ -80,7 +80,12 @@ To create a React app using ```create-react-app```, use the following at the com
 ```
   $ npx create-react-app <name-of-app>
 ```
-Once you run the code above, it will take at least a few minutes to set everything up.
+Once you run the code above, it will take at least a few minutes to set everything up. Once the setup is finished, check out the scripts located in the package.json file. You will see four default commands. To run the application, use the following at the command line:
+```
+  $ npm start
+```
+
+
 
 
 
