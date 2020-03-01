@@ -8,7 +8,7 @@ The Create React App Study is an exploration of the ```create-react-app``` comma
 Here are a few questions from the study to explore:
 
 * [How do you use npm/npx to create a React Apps?](#How-do-you-use-npm/npx-to-create-a-React-Apps)
-* [How do you a create a React app with create-react-app?](#How-do-you-a-create-a-React-app-with-create-react-app)
+* [How do you a create and run a React app?](#How-do-you-a-create-and-run-a-React-app)
 * [How do you run tests on the React Application?](#How-do-you-run-tests-on-the-React-Application)
 * [What does the build command do?](#What-does-the-build-command-do)
 * [What does the eject command do?](#What-does-the-eject-command-do?)
@@ -69,12 +69,12 @@ In the example below, we run a temporary package ```cowsay``` a string to execut
 <br>
 <br>
 
-# How do you a create a React app with create-react-app?
+# How do you a create and run a React app?
 
 <dl>
 <dd>
 
-## Create React App is a quick build setup for React applications.
+## Use create-react-app for quick build setup.
 **With ```create-react-app```, you can save time on setup and configuration to get going quicker with one simple command.**
 The environment created from running ```create-react-app```, including: React, JSC, ES6, and Flow syntax, langauge extras like the spread operators, autoprefixed CSS, an interactive unit test runner, a live development server, offline-first server worker and web app manifest meeting Progressive web app criteria, and updates for all tools handled through a single dependency.
 
@@ -82,9 +82,28 @@ To create a React app using ```create-react-app```, use the following at the com
 ```
   $ npx create-react-app <name-of-app>
 ```
+
+<br>
+
+## Use "npm start" to run a React app.
 Once you run the code above, it will take at least a few minutes to set everything up. Once the setup is finished, check out the scripts located in the package.json file. You will see four default commands. To run the application *in development mode*(which means that it will reload in the browser the same way as nodemon), use the following at the command line:
 ```
   $ npm start
+```
+If you cant remember offhand what the script commands are, run ```npm run``` and you'll get a list of the default scripts. In the case of this app, you will see lifecycle scripts (for development) and run-scripts. For example, if you run ```npm run``` at the command line, you will see something like this:
+```
+  $ npm run
+  Lifecycle scripts included in cra-test-app:
+    start
+      react-scripts start
+    test
+      react-scripts test
+
+  available via `npm run-script`:
+    build
+      react-scripts build
+    eject
+      react-scripts eject
 ```
 
 </dd>
