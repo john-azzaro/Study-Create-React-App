@@ -126,14 +126,15 @@ The build command bundles the React application into static files for production
 <br>
 <br>
 
-# 
+# What does the eject command do?
 
 <dl>
 <dd>
 
+The eject command takes the app out of the ```create-react-app``` setup and allows you to customize the project configuration. For example, if you wanted to tweak the scripts and build the environment in some unique way you can *eject*, whihc means that it removes the single dependency and copies everything directly to the project. Be careful, because once ejected you cannot go back to a single dependency.
 
 ```
-  
+  npm run eject
 ```
 
 </dd>
