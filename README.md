@@ -74,8 +74,12 @@ In the example below, we run a temporary package ```cowsay``` a string to execut
 <dl>
 <dd>
 
-## Use create-react-app for quick build setup.
-**With ```create-react-app```, you can save time on setup and configuration to get going quicker with one simple command.**
+## create-react-app is a ready-made React app starter.
+**With ```create-react-app```, you can save time on setup and configuration to get going quicker with one simple command.** When you run this command, npx is going to download the most recent ```create-react-app``` release, run it, and then remove it from your local system. This means you will NEVER have an outdated version of the system.
+
+<br>
+
+## Use "create-react-app" for quick, up-to-date build setup.
 The environment created from running ```create-react-app```, including: React, JSC, ES6, and Flow syntax, langauge extras like the spread operators, autoprefixed CSS, an interactive unit test runner, a live development server, offline-first server worker and web app manifest meeting Progressive web app criteria, and updates for all tools handled through a single dependency.
 
 To create a React app using ```create-react-app```, use the following at the command line:
@@ -90,6 +94,10 @@ Once you run the code above, it will take at least a few minutes to set everythi
 ```
   $ npm start
 ```
+
+<br>
+
+## Use "npm run" for current script commands.
 If you cant remember offhand what the script commands are, run ```npm run``` and you'll get a list of the default scripts. In the case of this app, you will see lifecycle scripts (for development) and run-scripts. For example, if you run ```npm run``` at the command line, you will see something like this:
 ```
   $ npm run
@@ -133,10 +141,13 @@ Running the test command will start the test runner that lets you test your app 
 <dl>
 <dd>
 
-The build command bundles the React application into static files for production and optimizes it for best performance. In other words, it prepares you application for production deployment. To use the build command, run the following at the command line:
+The build command prepares your application for production deployment. When you run the build, it correctly bundles the React application into static files for production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes and is ready to be deployed to a server. To use the build command, run the following at the command line:
 ```
   $ npm run build
 ```
+
+
+
 
 </dd>
 </dl>
@@ -149,7 +160,9 @@ The build command bundles the React application into static files for production
 <dl>
 <dd>
 
-The eject command takes the app out of the ```create-react-app``` setup and allows you to customize the project configuration. For example, if you wanted to tweak the scripts and build the environment in some unique way you can *eject*, whihc means that it removes the single dependency and copies everything directly to the project. Be careful, because once ejected you cannot go back to a single dependency.
+Although ```create-react-app``` is extremely convienent with common denominator conventions, you are limited to the options you have and eventually you may outgrow the capabilites of the initial setup. The eject command takes the app out of the ```create-react-app``` setup and allows you to customize the project configuration. The drawbacks are that you will lose automatic updates but gain flexibility in other configurations, like Babel or webpack.
+
+For example, if you wanted to tweak the scripts and build the environment in some unique way you can *eject*, which means that it removes the single dependency and copies everything directly to the project. Be careful, because once ejected you cannot go back to a single dependency.
 ```
   npm run eject
 ```
