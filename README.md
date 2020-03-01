@@ -9,6 +9,10 @@ The Create React App Study is an exploration of the ```create-react-app``` comma
 Here are a few questions from the study to explore:
 
 * [How do you use npm/npx to create a React Apps?](#How-do-you-use-npm/npx-to-create-a-React-Apps)
+* [How do you a create a React app with create-react-app?](#How-do-you-a-create-a-React-app-with-create-react-app)
+* [How do you run tests on the React Application?](#How-do-you-run-tests-on-the-React-Application)
+* [What does the build command do?](#What-does-the-build-command-do)
+* [What does the eject command do?](#What-does-the-eject-command-do?)
 
 
 <br>
@@ -132,7 +136,6 @@ The build command bundles the React application into static files for production
 <dd>
 
 The eject command takes the app out of the ```create-react-app``` setup and allows you to customize the project configuration. For example, if you wanted to tweak the scripts and build the environment in some unique way you can *eject*, whihc means that it removes the single dependency and copies everything directly to the project. Be careful, because once ejected you cannot go back to a single dependency.
-
 ```
   npm run eject
 ```
