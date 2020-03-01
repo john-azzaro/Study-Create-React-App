@@ -1,5 +1,4 @@
 # Create React App Study
-See it Live: https://john-azzaro.github.io/Study-Create-React-App/
 
 <br>
 
@@ -17,7 +16,7 @@ Here are a few questions from the study to explore:
 
 <br>
 <br>
-<br>
+
 
 # How do you use npm/npx to create a React Apps?
 
@@ -69,7 +68,6 @@ In the example below, we run a temporary package ```cowsay``` a string to execut
 
 <br>
 <br>
-<br>
 
 # How do you a create a React app with create-react-app?
 
@@ -94,7 +92,6 @@ Once you run the code above, it will take at least a few minutes to set everythi
 
 <br>
 <br>
-<br>
 
 # How do you run tests on the React Application?
 
@@ -109,7 +106,6 @@ Running the test command will start the test runner that lets you test your app 
 </dd>
 </dl>
 
-<br>
 <br>
 <br>
 
@@ -128,7 +124,6 @@ The build command bundles the React application into static files for production
 
 <br>
 <br>
-<br>
 
 # What does the eject command do?
 
@@ -143,6 +138,5 @@ The eject command takes the app out of the ```create-react-app``` setup and allo
 </dd>
 </dl>
 
-<br>
 <br>
 <br>
