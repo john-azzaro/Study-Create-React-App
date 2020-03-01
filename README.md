@@ -172,3 +172,21 @@ For example, if you wanted to tweak the scripts and build the environment in som
 
 <br>
 <br>
+
+# How do you install packages via NPM?
+
+<dl>
+<dd>
+
+To install packages via NPM, you need to run the install command. But before you install any packages, you need to get the exact name of the package from the npm registry.  For example, if you wanted to implement a package like browserify, express, grunt, etc. you simply need to use the installation name. If you have multiple packages to install, insert the name and a space between each package. Once you have the name, simple write the command as follows:
+```
+  $ npm install express                       // install a single package.
+  $ npm i express                             // short version of installation of single package.
+  $ npm install express broswerify            // install multiple packages.
+```
+
+</dd>
+</dl>
+
+<br>
+<br>
