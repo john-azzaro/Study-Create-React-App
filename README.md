@@ -125,6 +125,7 @@ If you cant remember offhand what the script commands are, run ```npm run``` and
 <dl>
 <dd>
 
+## To run tests, use the "run test" command.
 Running the test command will start the test runner that lets you test your app with Jest as you build it out. This is an interactive test environment that can be used to great effect. To use the test command, run the following at the command line:
 ```
   $ npm test
@@ -141,6 +142,7 @@ Running the test command will start the test runner that lets you test your app 
 <dl>
 <dd>
 
+## Run "npm run build" to bundle app for production.
 The build command prepares your application for production deployment. When you run the build, it correctly bundles the React application into static files for production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes and is ready to be deployed to a server. To use the build command, run the following at the command line:
 ```
   $ npm run build
@@ -160,6 +162,7 @@ The build command prepares your application for production deployment. When you 
 <dl>
 <dd>
 
+## Run "npm run eject" to further c
 Although ```create-react-app``` is extremely convienent with common denominator conventions, you are limited to the options you have and eventually you may outgrow the capabilites of the initial setup. The eject command takes the app out of the ```create-react-app``` setup and allows you to customize the project configuration. The drawbacks are that you will lose automatic updates but gain flexibility in other configurations, like Babel or webpack.
 
 For example, if you wanted to tweak the scripts and build the environment in some unique way you can *eject*, which means that it removes the single dependency and copies everything directly to the project. Be careful, because once ejected you cannot go back to a single dependency.
@@ -178,11 +181,30 @@ For example, if you wanted to tweak the scripts and build the environment in som
 <dl>
 <dd>
 
-To install packages via NPM, you need to run the install command. But before you install any packages, you need to get the exact name of the package from the npm registry.  For example, if you wanted to implement a package like browserify, express, grunt, etc. you simply need to use the installation name. If you have multiple packages to install, insert the name and a space between each package. Once you have the name, simple write the command as follows:
+## Run "npm install" with the package name.
+To install packages via NPM, you need to run the install command. But before you install any packages, you need to get the exact name of the package from the npm registry.  For example, if you wanted to implement a package like browserify, express, moment, grunt, etc. you simply need to use the installation name. If you have multiple packages to install, insert the name and a space between each package. Once you have the name, simple write the command as follows:
 ```
   $ npm install express                       // install a single package.
   $ npm i express                             // short version of installation of single package.
   $ npm install express broswerify            // install multiple packages.
+```
+O
+
+
+</dd>
+</dl>
+
+<br>
+<br>
+
+# How do you use packages in your React application?
+
+<dl>
+<dd>
+
+To use packages in your react application, 
+```
+
 ```
 
 </dd>
