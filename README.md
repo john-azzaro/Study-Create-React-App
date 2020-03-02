@@ -224,11 +224,15 @@ You package.json file will list all of the dependencies specific to your applica
 <dl>
 <dd>
 
-## Use NPM packages by importing them into your application.
-To use packages in your react application, you need to import those dependencies into each and every specific document that uses them (e.g. app.js, etc.). To import the dependency, you need ot use an *import statement*.  **Import statements** are used to make JavaScript modules available to use in your specific file. For example, if you installed the "moment" library (which is use to parse, manipulate, and format dates), you would need to *import* that
+## Import installed packages to your application.
+To use packages in your react application, you need to import those dependencies into each and every specific document that uses them (e.g. app.js, etc.). To import the dependency, you need ot use an *import statement*.  **Import statements** are used to make JavaScript modules available to use in your specific file. For example, if you installed the "moment" library (which is use to parse, manipulate, and format dates), you would need to *import* that module *from* the dependency module you installed earlier in the following way:
 ```JavaScript
-
+  import moment from 'moment';
 ```
+<br>
+
+## 
+
 
 </dd>
 </dl>
