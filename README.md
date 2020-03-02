@@ -57,7 +57,7 @@ In the example below, we run a temporary package ```cowsay``` a string to execut
   \ ihtout installation!                     /
   ------------------------------------------
           \   ^__^
-          \  (oo)\_______
+          \   (oo)\_______
               (__)\       )\/\
                   ||----w |
                   ||     ||
@@ -74,7 +74,7 @@ In the example below, we run a temporary package ```cowsay``` a string to execut
 <dl>
 <dd>
 
-## create-react-app is a ready-made React app starter.
+## "create-react-app" is a ready-made React app starter.
 **With ```create-react-app```, you can save time on setup and configuration to get going quicker with one simple command.** When you run this command, npx is going to download the most recent ```create-react-app``` release, run it, and then remove it from your local system. This means you will NEVER have an outdated version of the system.
 
 <br>
@@ -162,7 +162,7 @@ The build command prepares your application for production deployment. When you 
 <dl>
 <dd>
 
-## Run "npm run eject" to further c
+## Run "npm run eject" to further customize project.
 Although ```create-react-app``` is extremely convienent with common denominator conventions, you are limited to the options you have and eventually you may outgrow the capabilites of the initial setup. The eject command takes the app out of the ```create-react-app``` setup and allows you to customize the project configuration. The drawbacks are that you will lose automatic updates but gain flexibility in other configurations, like Babel or webpack.
 
 For example, if you wanted to tweak the scripts and build the environment in some unique way you can *eject*, which means that it removes the single dependency and copies everything directly to the project. Be careful, because once ejected you cannot go back to a single dependency.
@@ -188,7 +188,29 @@ To install packages via NPM, you need to run the install command. But before you
   $ npm i express                             // short version of installation of single package.
   $ npm install express broswerify            // install multiple packages.
 ```
-O
+<br>
+
+## Check your package.json file to see if packages was added.
+You package.json file will list all of the dependencies specific to your application. For example, if you installed express on your application, it would show in the "dependencies" property of the package.json object.
+```
+{
+  ...
+  ...
+  ...
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "express": "^4.17.1",                         // express installed as a dependency of the application.
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
+  },
+  ...
+  ...
+  ...
+}
+```
 
 
 </dd>
@@ -202,8 +224,9 @@ O
 <dl>
 <dd>
 
-To use packages in your react application, 
-```
+## Use NPM packages by importing them into your application.
+To use packages in your react application, you need to import those dependencies into each and every specific document that uses them (e.g. app.js, etc.). To import the dependency, you need ot use an *import statement*.  **Import statements** are used to make JavaScript modules available to use in your specific file. For example, if you installed the "moment" library (which is use to parse, manipulate, and format dates), you would need to *import* that
+```JavaScript
 
 ```
 
