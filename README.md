@@ -249,7 +249,14 @@ Or if you wanted to add an amount of time to the current time, you can use the `
 <br>
 
 ## You can import specific parts of a package.
-Suppose you want to import certain parts of a package. For example, if you were to use the ```mathjs``` library that provides functions to create fractions and perform mathematical processes on them as well as format the input. 
+Suppose you want to import certain parts of a package. For example, if you were to use the ```mathjs``` library that provides functions to create fractions and perform mathematical processes on them as well as format the input, you can load specific parts of that package. So suppose you want to import fraction, add, and format to your application from the package using destructring, you would do the following:
+```JavaScript
+  import {fraction, add, format} from 'mathjs';
+```
+These methods will then be available to you in the file:
+```JavaScript
+
+```
 
 </dd>
 </dl>
