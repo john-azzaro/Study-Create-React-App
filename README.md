@@ -246,6 +246,11 @@ Or if you wanted to add an amount of time to the current time, you can use the `
   right_now.add(5, 'days');
 ```
 
+<br>
+
+## You can import specific parts of a package.
+Suppose you want to import certain parts of a package. For example, if you were to use the ```mathjs``` library that provides functions to create fractions and perform mathematical processes on them as well as format the input. 
+
 </dd>
 </dl>
 
