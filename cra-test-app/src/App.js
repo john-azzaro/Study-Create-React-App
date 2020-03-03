@@ -2,20 +2,16 @@ import React, { Component } from 'react';
 import moment from 'moment';
 
 class App extends Component {
-  render() {
-    //get the current date and time
-    const right_now = moment();
+  render() { 
+    const right_now = moment();                                                        //get the current date and time
+    
+    const formatted_right_now = right_now.format("dddd, MMMM Do YYYY, h:mm:ss a");     // get formatted date and time
 
-    // get a nicely formatted date and time
-    const formatted_right_now = right_now.format("dddd, MMMM Do YYYY, h:mm:ss a");
-
-    // add 7 days, 4 hours and 32 minutes to the current time
-    right_now.add(7, 'days');
+    right_now.add(7, 'days');                                                          // add 7 days, 4 hours and 32 minutes to the current time
     right_now.add(4, 'hours');
     right_now.add(32, 'minutes');
 
-    // get a nicely formatted date and time for the new time
-    const formatted_later = right_now.format("dddd, MMMM Do YYYY, h:mm:ss a");
+    const formatted_later = right_now.format("dddd, MMMM Do YYYY, h:mm:ss a");         // get a nicely formatted date and time for the new time
 
     return (
       <div className="App">
