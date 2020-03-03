@@ -233,8 +233,18 @@ To use packages in your react application, you need to import those dependencies
 <br>
 
 ## Use the imported module in your app.
-Once imported, you can use the package as needed. For example, 
-
+Once imported, you can use the package as needed. For example, with the moment package, you can create a variable that will give you the current date and time by simply calling moment:
+```JavaScript
+  const right_now = moment()
+```
+To format the date and time, you can also use the ```.format``` method:
+```JavaScript
+  right_now.format("dddd, MMMM Do YYYY, h:mm:ss a");
+```
+Or if you wanted to add an amount of time to the current time, you can use the ```.add``` method:
+```JavaScript
+  right_now.add(5, 'days')
+```
 
 </dd>
 </dl>
