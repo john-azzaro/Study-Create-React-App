@@ -229,9 +229,11 @@ To use packages in your react application, you need to import those dependencies
 ```JavaScript
   import moment from 'moment';
 ```
+
 <br>
 
-## Wh 
+## Use the imported module in your app.
+Once imported, you can use the package as needed. For example, 
 
 
 </dd>
