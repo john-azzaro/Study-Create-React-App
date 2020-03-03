@@ -255,7 +255,10 @@ Suppose you want to import certain parts of a package. For example, if you were 
 ```
 These methods will then be available to you in the file:
 ```JavaScript
-
+  const f1 = fraction(4, 7);                                      // the fraction 4/7
+  const f2 = fraction(3, 8);                                      // the fraction 3/8
+  const f3 = add(f1, f2);                                         // the fraction 53/56
+  const formatted_fraction = format(f3, { fraction: 'ratio' });
 ```
 
 </dd>
